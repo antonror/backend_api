@@ -9,6 +9,7 @@ gem 'rails', '~> 5.1.3'
 
 gem 'sqlite3'
 gem 'puma', '~> 3.7'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
