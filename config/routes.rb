@@ -4,4 +4,6 @@ Rails.application.routes.draw do
       resources :pokemons
     end
   end
+
+  get :search, controller: :main
 end
