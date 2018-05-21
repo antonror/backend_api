@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Rails backend 5.1 API
 
-Things you may want to cover:
+1. ```git clone```
 
-* Ruby version
+2. ```bundle install```
 
-* System dependencies
+3. ```rake db:setup```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. ```rails s```
